@@ -1,9 +1,5 @@
 "use strict";
 
-/**
- * order router
- */
-
 const Razorpay = require('razorpay')
 const { createCoreRouter } = require("@strapi/strapi").factories;
 
