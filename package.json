@@ -16,6 +16,7 @@
     "@strapi/provider-upload-cloudinary": "^4.24.2",
     "@strapi/strapi": "4.24.2",
     "pg": "8.8.0",
+    "razorpay": "^2.9.3",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
