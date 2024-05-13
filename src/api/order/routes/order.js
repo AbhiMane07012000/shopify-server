@@ -3,11 +3,12 @@
 /**
  * order router
  */
-import Razorpay from "razorpay";
 
+const Razorpay = require('razorpay')
 const { createCoreRouter } = require("@strapi/strapi").factories;
 
 module.exports = createCoreRouter("api::order.order", ({ strapi }) => ({
+    
   async create(ctx) {
     const { products, subTotal, order_id } = ctx.request.body;
 
